@@ -1,0 +1,8 @@
+all:
+	make info_systeme
+
+clean:
+	rm info_systeme
+
+info_systeme:
+	gcc –std=c99 -o info_systeme info_systeme.c
